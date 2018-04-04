@@ -6,6 +6,15 @@
  *
  */
 
+function total(tableau) {
+    let i = 0;
+    let somme = 0;
+    while(i < tableau.length) {
+        somme = somme + tableau[i];
+        i++;
+    }
+    return somme;
+}
 
 //* Begin of tests
 const assert = require('assert')
